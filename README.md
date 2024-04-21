@@ -35,7 +35,13 @@ git remote -v
 
 ![image4](./md-images/image4.png)
 
-### 과제 완료 후 커밋 및 푸시를 진행한다.
+### 과제 완료 후 기존 README 파일의 내용을 지우고 기능 시연 내용을 업데이트 한다.
+
+예시는 아래 링크 참조
+
+https://github.com/opencodegyeonggi/FE-todo-list-vanilla/tree/ElioJung
+
+### 이후 커밋 및 푸시를 진행한다.
 
 ![image5](./md-images/image5.png)
 

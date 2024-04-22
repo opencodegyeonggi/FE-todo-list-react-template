@@ -1,0 +1,13 @@
+@import url("./styles/App.scss");
+@import url("./styles/reset.scss");
+@import url("./styles//TodoHeader.scss");
+@import url("./styles//TodoItem.scss");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0efe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

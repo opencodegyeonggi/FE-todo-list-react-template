@@ -1,0 +1,58 @@
+.todo-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  form {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+
+    input[type="text"] {
+      outline: none;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: 0.5rem;
+      color: white;
+      background-color: #50e3a4;
+    }
+  }
+
+  .title {
+    cursor: pointer;
+    &.clicked {
+      color: lightgrey;
+    }
+  }
+
+  .done-button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 3px lightgrey solid;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: white;
+    }
+
+    &.clicked {
+      border-color: #50e3a4;
+      div {
+        background-color: #50e3a4;
+      }
+    }
+  }
+}

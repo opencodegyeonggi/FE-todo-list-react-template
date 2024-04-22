@@ -1,0 +1,23 @@
+.todo-list-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .date-container {
+    display: flex;
+    column-gap: 0.5rem;
+    .day {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .date {
+      div:first-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .day-container {
+    font-weight: bold;
+  }
+}
